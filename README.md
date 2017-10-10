@@ -1,5 +1,5 @@
 # NoGCugui
-Avoid the unnessary gc when using ugui
+Avoid the unnessary gc when using ugui. For example ugui method CrossFadeAlpha may cause 1.1kb gc each time, that was unacceptable, using AnimationManager will save you from this shit.
 
 ## PROVIDE
 * set graphic enable & disable without gc
