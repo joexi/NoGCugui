@@ -1,5 +1,7 @@
 # NoGCugui
-Avoid the unnessary gc when using ugui. For example ugui method CrossFadeAlpha may cause 1.1kb gc each time, that was unacceptable, using AnimationManager will save you from this shit.
+Avoid the unnessary gc when using ugui. 
+
+For example ugui method CrossFadeAlpha may cause 1.1kb gc each time, that was unacceptable, using AnimationManager will save you from this shit.
 
 ## PROVIDE
 * set graphic enable & disable without gc
@@ -25,6 +27,6 @@ AnimationManager.Instance.Clear (this);
 * dispatch
 ``` c# 
 DispatchManager.Instance.Run (delegate(float value) {
-			Debug.LogError("dispatch!");
+	Debug.LogError("dispatch!");
 });
 ```
