@@ -22,7 +22,7 @@ AnimationManager.Instance.DoFadeImgTo (Img1, 1f, 0, 1f, 0f, EaseType.None, this)
 AnimationManager.Instance.Clear (this);
 ```
 
-* dispath
+* dispatch
 ``` c# 
 DispatchManager.Instance.Run (delegate(float value) {
 			Debug.LogError("dispatch!");
